@@ -12,26 +12,10 @@ def send_js(path):
 def index():
         return render_template('index.html')
 
-
 @app.route('/whereami')
 def     whereami():
         return "kdua"
 
+@app.route('/')
 
-@app.route('/hello/<name>')
-def	foo(name):
-	return render_template('index.html', to=name)
-
-@app.route('/python')
-def	dboy():
-	return render_template('python.html')
-
-
-@app.route('/linux')
-def	dboy1():
-	return render_template('linux.html')
-
-if __name__=='__main__':
-        app.run(host="0.0.0.0")
-
-
+def  
