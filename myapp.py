@@ -31,7 +31,5 @@ def	dboy():
 def	dboy1():
 	return render_template('linux.html')
 
-if __name__=='__main__':
-        app.run(host="0.0.0.0")
 
 
